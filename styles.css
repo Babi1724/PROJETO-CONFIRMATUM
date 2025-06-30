@@ -1,0 +1,36 @@
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* ocupa 100% da altura da tela */
+    margin: 0;
+    width: 700px;
+  }
+
+  .form-container {
+    background-color: #a18c8c;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    height: 180px;
+    width: 200px;
+  }
+
+  .form-container label,
+  .form-container input {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .form-container input {
+    padding: 5px;
+  }
+
+  .form-container button {
+    display: block;
+    margin: 10px;
+    padding: 6px 12px;
+    width: 100px;
+  }
